@@ -106,5 +106,6 @@ final_plot <- ggplot(busco_all, aes(y = Condition, x = Percentage, fill = Catego
   theme_minimal() +
   theme(plot.title = element_text(hjust = 0.5, face = "bold"))
 
-ggsave("busco_plot_all.png", plot = final_plot, width = 10, height = 6, dpi = 300)
+ggsave("Name_of_your_plot.png", plot = final_plot, width = 10, height = 6, dpi = 300)
+
 
